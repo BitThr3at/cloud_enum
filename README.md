@@ -1,9 +1,15 @@
 # Docker Execution Command
 Clone
-`git clone https://github.com/BitThr3at/cloud_enum.git`
+```
+git clone https://github.com/BitThr3at/cloud_enum.git
+
+```
 
 Build
-`docker build -t cloud_enum .`
+```
+cd cloud_enum
+docker build -t cloud_enum .
+```
 
 Run
 ```
