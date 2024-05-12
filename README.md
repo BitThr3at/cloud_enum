@@ -1,3 +1,11 @@
+# Docker Execution Command
+```
+docker run -it --rm \
+    -v "$(pwd)/data:/app/data" \
+    cloud_enum -k keyword1 -k keyword2 -l /app/data/output.log
+```
+
+
 # cloud_enum
 Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud.
 
